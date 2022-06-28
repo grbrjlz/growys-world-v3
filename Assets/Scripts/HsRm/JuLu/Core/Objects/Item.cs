@@ -1,4 +1,4 @@
-namespace Content.Scripts.HsRm.JuLu.Core.Objects
+namespace HsRm.JuLu.Core.Objects
 {
     public class Item
     {

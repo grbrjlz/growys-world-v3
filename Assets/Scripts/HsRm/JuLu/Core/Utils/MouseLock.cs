@@ -1,11 +1,12 @@
 using UnityEngine;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Utils
+namespace HsRm.JuLu.Core.Utils
 {
     public class MouseLock : MonoBehaviour
-    { 
-        public enum MouseAxes { XY = 0, X = 1, Y = 2 };
-        public enum RotationSpace { World, Local };
+    {
+        private enum MouseAxes { XY = 0, X = 1, Y = 2 };
+
+        private enum RotationSpace { World, Local };
 
         [SerializeField] private MouseAxes mouseAxes = MouseAxes.XY;
         [SerializeField] private RotationSpace rotationSpace = RotationSpace.Local;
@@ -45,8 +46,10 @@ namespace Content.Scripts.HsRm.JuLu.Core.Utils
         {
             // set rotation to transform, needed for initialization of internal rotation values
             SetRotation(rotation);
+            
             // initialize internal rotation values, takes clamping into account
             var initialRotation = InitializeRotationValues();
+            
             // finally override with initialized and clamped rotation
             LerpRotation(initialRotation);
         }
@@ -111,10 +114,6 @@ namespace Content.Scripts.HsRm.JuLu.Core.Utils
         private Quaternion ClampRotationY()
         {
             var angle = CurrentEulerRotation.x;
-            // angle value jumps back on a full turn like 0.3, 0.2, 0.1, 0.0, 359.9, 359.8, ...
-            // we want a clamped vertical view range, for example from -80 to +80 degrees.
-            // when "looking up" we can subtract 360 from our current angle value to get 
-            // the expected behaviour like 0.3, 0.2, 0.1, 0.0, -0.1, -0.2, ...
             var lookingUp = Vector3.Dot(transform.forward, Vector3.up) > 0;
             if (lookingUp)
             {

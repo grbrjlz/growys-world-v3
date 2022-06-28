@@ -1,4 +1,4 @@
-namespace Content.Scripts.HsRm.JuLu.Core.Collectables
+namespace HsRm.JuLu.Core.Collectables
 {
     public enum CollectableType
     {

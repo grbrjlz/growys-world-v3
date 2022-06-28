@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Commands.Animate
+namespace HsRm.JuLu.Core.Commands.Animate
 {
     public class AnimatorConditionCommand : BaseAnimatorCommand
     {

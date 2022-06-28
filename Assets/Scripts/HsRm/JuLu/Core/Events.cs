@@ -1,16 +1,15 @@
-using Content.Scripts.HsRm.JuLu.Core.Collectables;
-using Content.Scripts.HsRm.JuLu.Core.Interactables;
+using HsRm.JuLu.Core.Collectables;
+using HsRm.JuLu.Core.Interactables;
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Content.Scripts.HsRm.JuLu.Core
+namespace HsRm.JuLu.Core
 {
-    public static class Events
-    {
-        [SerializeField]
-        public class InteractableEvent : UnityEvent<Interactable> {}
-        
-        [SerializeField]
-        public class CollectableEvent : UnityEvent<Collectable> {}
-    }
+    [Serializable] public class InteractableEvent : UnityEvent<Interactable> {}
+    [Serializable] public class CollectableEvent : UnityEvent<Collectable> {}
+    [Serializable] public class ColliderEvent : UnityEvent<Collider> {}
+    [Serializable] public class IntEvent : UnityEvent<int> {}
+    [Serializable] public class FloatEvent : UnityEvent<float> {}
+    [Serializable] public class BoolEvent : UnityEvent<bool> {}
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Commands
+namespace HsRm.JuLu.Core.Commands
 {
     public abstract class BaseCommand : MonoBehaviour
     {

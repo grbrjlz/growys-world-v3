@@ -1,9 +1,9 @@
-using Content.Scripts.HsRm.JuLu.Core.Collectables;
-using Content.Scripts.HsRm.JuLu.Core.Interactables;
+using HsRm.JuLu.Core.Collectables;
+using HsRm.JuLu.Core.Interactables;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Commands.Raycaster
+namespace HsRm.JuLu.Core.Commands.Raycaster
 {
     public class UpdateRaycasterCommand : BaseRaycasterCommand
     {
@@ -15,19 +15,19 @@ namespace Content.Scripts.HsRm.JuLu.Core.Commands.Raycaster
         
         protected override void HandleHit(RaycastHit hit)
         {
-            var transform = hit.transform;
+            var hitTransform = hit.transform;
             
-            if (transform.TryGetComponent<Collectable>(out var collectable))
+            if (hitTransform.TryGetComponent<Collectable>(out var collectable))
             {
                 UpdateCursor(collectColor);
                 DrawDebugRay(hit.distance, collectColor);
             }
-            else if (transform.TryGetComponent<Interactable>(out var interactable))
+            else if (hitTransform.TryGetComponent<Interactable>(out var interactable))
             {
                 UpdateCursor(interactColor);
                 DrawDebugRay(hit.distance, interactColor);
             }
-            else if (transform.TryGetComponent<InteractableSelector>(out var selector))
+            else if (hitTransform.TryGetComponent<InteractableSelector>(out var selector))
             {
                 UpdateCursor(interactColor);
                 DrawDebugRay(hit.distance, interactColor);

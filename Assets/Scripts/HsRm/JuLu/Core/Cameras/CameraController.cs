@@ -1,14 +1,15 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Cameras
+namespace HsRm.JuLu.Core.Cameras
 {
     public class CameraController : MonoBehaviour
     {
-        [SerializeField] private CameraControl currentCameraControl = null;
+        [SerializeField] private CameraControl currentCameraControl;
         [SerializeField] private bool initializeOnStart = true;
         
-        public UnityEvent OnCameraControlActivated = null;
+        public UnityEvent onCameraControlActivated;
 
         public CameraControl CurrentCameraControl 
         { 
@@ -25,7 +26,7 @@ namespace Content.Scripts.HsRm.JuLu.Core.Cameras
                 {
                     CurrentCameraControl.gameObject.SetActive(true);
                     CurrentCameraControl.Activate();
-                    OnCameraControlActivated?.Invoke();
+                    onCameraControlActivated?.Invoke();
                 }
             }
         }
@@ -58,7 +59,7 @@ namespace Content.Scripts.HsRm.JuLu.Core.Cameras
 
             CurrentCameraControl = cameraControl;
 
-            OnCameraControlActivated?.Invoke();
+            onCameraControlActivated?.Invoke();
         }
 
         private void DeactivateCurrentCameraControl()

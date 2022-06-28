@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Commands
+namespace HsRm.JuLu.Core.Commands
 {
     public abstract class BaseAnimatorCommand : BaseCommand
     {
-        [SerializeField] private Animator animator;
-        [SerializeField] private string parameter = string.Empty;
+        [SerializeField] protected Animator animator;
+        [SerializeField] protected string parameter = string.Empty;
 
         protected override bool IsExecutable
         {
@@ -13,6 +13,24 @@ namespace Content.Scripts.HsRm.JuLu.Core.Commands
             set => base.IsExecutable = value;
         }
         
+        private void Awake()
+        {
+            UpdateReference();
+        }
+
+        private void OnValidate()
+        {
+            UpdateReference();
+        }
+
+        private void UpdateReference()
+        {
+            if (animator == null)
+            {
+                animator = GetComponentInParent<Animator>();
+            }
+        }
+
         protected Animator BaseAnimator => animator;
         protected string ParameterName => parameter;
     }

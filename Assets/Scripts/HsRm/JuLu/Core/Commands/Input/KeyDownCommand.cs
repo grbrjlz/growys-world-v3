@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Commands.Input
+namespace HsRm.JuLu.Core.Commands.Input
 {
     public class KeyDownCommand : BaseCommand
     {

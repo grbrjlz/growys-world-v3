@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Content.Scripts.HsRm.JuLu.Core
+namespace HsRm.JuLu.Core
 {
     public class Raycaster : MonoBehaviour
     {

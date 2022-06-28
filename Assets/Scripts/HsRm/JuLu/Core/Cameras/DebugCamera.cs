@@ -1,7 +1,7 @@
-using Content.Scripts.HsRm.JuLu.Core.Utils;
+using HsRm.JuLu.Core.Utils;
 using UnityEngine;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Cameras
+namespace HsRm.JuLu.Core.Cameras
 {
     public class DebugCamera : CameraControl
     {

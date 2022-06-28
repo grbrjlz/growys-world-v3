@@ -1,6 +1,6 @@
 using UnityEngine.Events;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Interactables
+namespace HsRm.JuLu.Core.Interactables
 {
     public class InteractableTrigger : Interactable
     {

@@ -1,23 +1,22 @@
 using UnityEngine;
-using static Content.Scripts.HsRm.JuLu.Core.Events;
 
-namespace Content.Scripts.HsRm.JuLu.Core.Collectables
+namespace HsRm.JuLu.Core.Collectables
 {
     public class Collectable : MonoBehaviour
     {
         [SerializeField] private new string name = string.Empty;
         [SerializeField] private CollectableType type;
 
-        private readonly CollectableEvent _onCollect;
+        private readonly CollectableEvent onCollect;
 
-        public Collectable(CollectableEvent onCollect)
+        public Collectable(CollectableEvent collectEvent)
         {
-            _onCollect = onCollect;
+            onCollect = collectEvent;
         }
 
         public void Collect()
         {
-            _onCollect?.Invoke(this);
+            onCollect?.Invoke(this);
         }
 
         public string Name => name;
