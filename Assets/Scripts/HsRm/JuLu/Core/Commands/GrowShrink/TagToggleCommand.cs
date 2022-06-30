@@ -12,6 +12,7 @@ namespace HsRm.JuLu.Core.Commands
         [SerializeField] GameObject plateShrink;
         [SerializeField] GameObject plateNormalize;
 
+
         public void toggleTag()
         {
             if (plateGrow.CompareTag("Untagged"))

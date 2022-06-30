@@ -882,6 +882,8 @@ struct GrowOrShrink_tEE71EC0E15055C598F3BDF93E256308AFF7C7FDA  : public MonoBeha
 	int32_t ___state_11;
 	// GrowOrShrink/Actions GrowOrShrink::action
 	int32_t ___action_12;
+	// UnityEngine.GameObject GrowOrShrink::xrRayWidth
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___xrRayWidth_13;
 };
 
 // HsRm.JuLu.Core.Interactables.Interactable
