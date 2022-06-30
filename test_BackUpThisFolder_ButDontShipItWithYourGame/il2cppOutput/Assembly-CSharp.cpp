@@ -194,6 +194,8 @@ struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
 // System.String
 struct String_t;
+// HsRm.JuLu.Core.Commands.TagToggleCommand
+struct TagToggleCommand_t202CBD6C38A32C9B86A971CF9CFEED49C8544358;
 // UnityEngine.Texture2D
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 // UnityEngine.Transform
@@ -227,6 +229,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A
 IL2CPP_EXTERN_C String_t* _stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E;
 IL2CPP_EXTERN_C String_t* _stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral906B77E17D4B5C51FC7B7C8B3075C8033B3D60A5;
+IL2CPP_EXTERN_C String_t* _stringLiteralB59F0EFCC2B82196C428CFD6D80A08F8B47573FC;
 IL2CPP_EXTERN_C String_t* _stringLiteralF9C0489A40C5074062C4320F4971357C57C5F0D2;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m8227A2F38BB57AE0669709774CDC4380CD7FC788_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisInteractable_t528D32A6FDBAD91B349D361DBC33AC8FD6348EC4_mF0D1B37DDEFDA2E7EC57549C1808566343B5E18C_RuntimeMethod_var;
@@ -933,6 +936,17 @@ struct Raycaster_t276450D8D6EA54C2D1D707656D70B3162E2FC0B8  : public MonoBehavio
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___currentCamera_4;
 };
 
+// HsRm.JuLu.Core.Commands.TagToggleCommand
+struct TagToggleCommand_t202CBD6C38A32C9B86A971CF9CFEED49C8544358  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject HsRm.JuLu.Core.Commands.TagToggleCommand::plateGrow
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___plateGrow_4;
+	// UnityEngine.GameObject HsRm.JuLu.Core.Commands.TagToggleCommand::plateShrink
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___plateShrink_5;
+	// UnityEngine.GameObject HsRm.JuLu.Core.Commands.TagToggleCommand::plateNormalize
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___plateNormalize_6;
+};
+
 // UnityEngine.EventSystems.UIBehaviour
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1443,6 +1457,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Ray_t2B1742D7958DC05BDC3EFC7461D3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_op_Implicit_m5D697E103A7CB05CADCED9F90FD4F6BAE955E763 (LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___mask0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_Raycast_m6140FC91F32547F11C687FA1A002850598B74A0D (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___ray0, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___hitInfo1, float ___maxDistance2, int32_t ___layerMask3, const RuntimeMethod* method) ;
+// System.Void UnityEngine.GameObject::set_tag(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___value0, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.RaycastHit::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* RaycastHit_get_transform_m89DB7FCFC50E0213A37CBE089400064B8FA19155 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Component::TryGetComponent<HsRm.JuLu.Core.Collectables.Collectable>(T&)
@@ -4094,6 +4110,132 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseRaycasterCommand__ctor_m68107B032870
 {
 	{
 		BaseCommand__ctor_m4AF3A00426806DFECFF7889F152516245826D4E6(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void HsRm.JuLu.Core.Commands.TagToggleCommand::toggleTag()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TagToggleCommand_toggleTag_m9A0F79D7406763B79F3EBD0764DB69C31A1D3FF5 (TagToggleCommand_t202CBD6C38A32C9B86A971CF9CFEED49C8544358* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral265810F5A977813D8C5B2D26CE8D98FC9B3363BD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral906B77E17D4B5C51FC7B7C8B3075C8033B3D60A5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB59F0EFCC2B82196C428CFD6D80A08F8B47573FC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF9C0489A40C5074062C4320F4971357C57C5F0D2);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	{
+		// if (plateGrow.CompareTag("Untagged"))
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___plateGrow_4;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_0, _stringLiteralB59F0EFCC2B82196C428CFD6D80A08F8B47573FC, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		// plateGrow.tag = "grow";
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___plateGrow_4;
+		NullCheck(L_3);
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_3, _stringLiteral265810F5A977813D8C5B2D26CE8D98FC9B3363BD, NULL);
+		goto IL_003d;
+	}
+
+IL_002a:
+	{
+		// plateGrow.tag = "Untagged";
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___plateGrow_4;
+		NullCheck(L_4);
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_4, _stringLiteralB59F0EFCC2B82196C428CFD6D80A08F8B47573FC, NULL);
+	}
+
+IL_003d:
+	{
+		// if (plateShrink.CompareTag("Untagged"))
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___plateShrink_5;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_5, _stringLiteralB59F0EFCC2B82196C428CFD6D80A08F8B47573FC, NULL);
+		V_1 = L_6;
+		bool L_7 = V_1;
+		if (!L_7)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		// plateShrink.tag = "shrink";
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___plateShrink_5;
+		NullCheck(L_8);
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_8, _stringLiteralF9C0489A40C5074062C4320F4971357C57C5F0D2, NULL);
+		goto IL_0079;
+	}
+
+IL_0066:
+	{
+		// plateShrink.tag = "Untagged";
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___plateShrink_5;
+		NullCheck(L_9);
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_9, _stringLiteralB59F0EFCC2B82196C428CFD6D80A08F8B47573FC, NULL);
+	}
+
+IL_0079:
+	{
+		// if (plateNormalize.CompareTag("Untagged"))
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___plateNormalize_6;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_10, _stringLiteralB59F0EFCC2B82196C428CFD6D80A08F8B47573FC, NULL);
+		V_2 = L_11;
+		bool L_12 = V_2;
+		if (!L_12)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		// plateNormalize.tag = "normal_size";
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___plateNormalize_6;
+		NullCheck(L_13);
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_13, _stringLiteral906B77E17D4B5C51FC7B7C8B3075C8033B3D60A5, NULL);
+		goto IL_00b5;
+	}
+
+IL_00a2:
+	{
+		// plateNormalize.tag = "Untagged";
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___plateNormalize_6;
+		NullCheck(L_14);
+		GameObject_set_tag_m0A41528AFD8C83E1CEC5D769921159897CDD2B24(L_14, _stringLiteralB59F0EFCC2B82196C428CFD6D80A08F8B47573FC, NULL);
+	}
+
+IL_00b5:
+	{
+		// }
+		return;
+	}
+}
+// System.Void HsRm.JuLu.Core.Commands.TagToggleCommand::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TagToggleCommand__ctor_mEFAB02AF6803FD3C685F7E6905FB5A33EC334235 (TagToggleCommand_t202CBD6C38A32C9B86A971CF9CFEED49C8544358* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }

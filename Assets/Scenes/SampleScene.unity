@@ -584,7 +584,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-126294
+  m_Name: pb_Mesh121392
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1094,7 +1094,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-126322
+  m_Name: pb_Mesh121296
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2027,7 +2027,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-122516
+  m_Name: pb_Mesh121358
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2521,7 +2521,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-126278
+  m_Name: pb_Mesh121290
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2898,7 +2898,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-126338
+  m_Name: pb_Mesh121348
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3361,7 +3361,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-126308
+  m_Name: pb_Mesh121320
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3640,7 +3640,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-122530
+  m_Name: pb_Mesh121336
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4106,7 +4106,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063502902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
@@ -4832,7 +4832,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-122544
+  m_Name: pb_Mesh121276
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5298,13 +5298,63 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1628160189}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1657483040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657483042}
+  - component: {fileID: 1657483041}
+  m_Layer: 0
+  m_Name: Light Probe Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!220 &1657483041
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657483040}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: -1}
+  - {x: 1, y: -1, z: 1}
+  - {x: 1, y: -1, z: -1}
+  - {x: -1.0000017, y: 1.5987365, z: 3.6704566}
+  - {x: -1.0000066, y: 2.9597359, z: 0.16327386}
+  - {x: -1, y: -1, z: 1}
+  - {x: -1, y: -1, z: -1}
+  m_Dering: 1
+--- !u!4 &1657483042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657483040}
+  m_LocalRotation: {x: -0.000000009890284, y: 0.9973275, z: 0.0000000015762659, w: -0.07306132}
+  m_LocalPosition: {x: 47.744453, y: 1.6125898, z: 27.252676}
+  m_LocalScale: {x: 0.75000036, y: 0.75, z: 0.75000036}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1746581114
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-126354
+  m_Name: pb_Mesh121274
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6036,9 +6086,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f0af9f9852a46df8858f06410b2076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shrunkScale: {x: 0.055, y: 0.02, z: 0.005}
+  shrunkScale: {x: 0.1, y: 0.2, z: 0.05}
   grownScale: {x: 5, y: 5, z: 5}
-  time: 5000
+  time: 3000
+  xrRayWidth: {fileID: 1805445739}
 --- !u!114 &1801512365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6092,7 +6143,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805445739}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
@@ -8827,7 +8878,7 @@ GameObject:
   - component: {fileID: 5646643937119215253}
   - component: {fileID: 5701928498360846910}
   - component: {fileID: 562952413151571261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Normalize_Plate
   m_TagString: normal_size
   m_Icon: {fileID: 0}
@@ -11823,7 +11874,7 @@ GameObject:
   - component: {fileID: 3968527665229320384}
   - component: {fileID: 5173726098185387765}
   - component: {fileID: 1737133166895882451}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11839,7 +11890,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6621789445152817087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11904,7 +11955,7 @@ GameObject:
   - component: {fileID: 964466714339827743}
   - component: {fileID: 8069124571074737711}
   - component: {fileID: 8423095191698847339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shrink_Plate
   m_TagString: shrink
   m_Icon: {fileID: 0}
@@ -14904,7 +14955,7 @@ GameObject:
   - component: {fileID: 224599526716187361}
   - component: {fileID: 2414935209011281821}
   - component: {fileID: 3029618759374349653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hold Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17669,7 +17720,7 @@ GameObject:
   - component: {fileID: 4076200194223425273}
   - component: {fileID: 7359014048301899314}
   - component: {fileID: 6958328618865825365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grow_Plate
   m_TagString: grow
   m_Icon: {fileID: 0}
@@ -26197,7 +26248,7 @@ GameObject:
   - component: {fileID: 8754818991192119794}
   - component: {fileID: 758304469902641106}
   - component: {fileID: 1008133334469965251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hold Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}

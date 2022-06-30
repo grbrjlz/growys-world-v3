@@ -186,159 +186,163 @@ extern void BaseRaycasterCommand_get_Raycaster_mE90659A74119F2C8E461E695EEE7E1BE
 extern void BaseRaycasterCommand_get_MaxDistance_m979A85C387EE252A43B3FF22ACD566197C8F0C51 (void);
 // 0x00000059 System.Void HsRm.JuLu.Core.Commands.BaseRaycasterCommand::.ctor()
 extern void BaseRaycasterCommand__ctor_m68107B032870CCDD63CF184AB918445356A61E67 (void);
-// 0x0000005A System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::HandleHit(UnityEngine.RaycastHit)
+// 0x0000005A System.Void HsRm.JuLu.Core.Commands.TagToggleCommand::toggleTag()
+extern void TagToggleCommand_toggleTag_m9A0F79D7406763B79F3EBD0764DB69C31A1D3FF5 (void);
+// 0x0000005B System.Void HsRm.JuLu.Core.Commands.TagToggleCommand::.ctor()
+extern void TagToggleCommand__ctor_mEFAB02AF6803FD3C685F7E6905FB5A33EC334235 (void);
+// 0x0000005C System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::HandleHit(UnityEngine.RaycastHit)
 extern void UpdateRaycasterCommand_HandleHit_m47FAE98FEC1B2519CA016694739A30BDDF4FBA45 (void);
-// 0x0000005B System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::HandleMiss()
+// 0x0000005D System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::HandleMiss()
 extern void UpdateRaycasterCommand_HandleMiss_m97E1C3847A2916458FC8EE3BABA05A9A200A58D7 (void);
-// 0x0000005C System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::DrawDebugRay(System.Single,UnityEngine.Color)
+// 0x0000005E System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::DrawDebugRay(System.Single,UnityEngine.Color)
 extern void UpdateRaycasterCommand_DrawDebugRay_m923863AC5BBAC3244AEAAAA8CC2B693F456D4668 (void);
-// 0x0000005D System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::UpdateCursor(UnityEngine.Color)
+// 0x0000005F System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::UpdateCursor(UnityEngine.Color)
 extern void UpdateRaycasterCommand_UpdateCursor_m1F33472417E2D35EF09D8C578DE1D7C4264359ED (void);
-// 0x0000005E System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::Update()
+// 0x00000060 System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::Update()
 extern void UpdateRaycasterCommand_Update_m3D848FE640F771F262CDB0FA8084D8D850AB9D0F (void);
-// 0x0000005F System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::.ctor()
+// 0x00000061 System.Void HsRm.JuLu.Core.Commands.Raycaster.UpdateRaycasterCommand::.ctor()
 extern void UpdateRaycasterCommand__ctor_m6B83287214708BD7CB88AA7B855961CADF1EE6C2 (void);
-// 0x00000060 HsRm.JuLu.Core.Interactables.InteractableToggle HsRm.JuLu.Core.Commands.Interactables.InteractableToggleCommand::get_InteractableToggle()
+// 0x00000062 HsRm.JuLu.Core.Interactables.InteractableToggle HsRm.JuLu.Core.Commands.Interactables.InteractableToggleCommand::get_InteractableToggle()
 extern void InteractableToggleCommand_get_InteractableToggle_m7C18F6C75C84E896E3F64413FF2AF2571377D288 (void);
-// 0x00000061 System.Boolean HsRm.JuLu.Core.Commands.Interactables.InteractableToggleCommand::CanUseInteractable(HsRm.JuLu.Core.Interactables.Interactable)
+// 0x00000063 System.Boolean HsRm.JuLu.Core.Commands.Interactables.InteractableToggleCommand::CanUseInteractable(HsRm.JuLu.Core.Interactables.Interactable)
 extern void InteractableToggleCommand_CanUseInteractable_m9B12F4622FBD3EB240D964E0C7EE5D678F5BC276 (void);
-// 0x00000062 System.Void HsRm.JuLu.Core.Commands.Interactables.InteractableToggleCommand::ExecuteCommand()
+// 0x00000064 System.Void HsRm.JuLu.Core.Commands.Interactables.InteractableToggleCommand::ExecuteCommand()
 extern void InteractableToggleCommand_ExecuteCommand_m5DD18FC0C7BDA503CECFDC3155F1C7101855391B (void);
-// 0x00000063 System.Void HsRm.JuLu.Core.Commands.Interactables.InteractableToggleCommand::.ctor()
+// 0x00000065 System.Void HsRm.JuLu.Core.Commands.Interactables.InteractableToggleCommand::.ctor()
 extern void InteractableToggleCommand__ctor_m37B7EEA59A4424508B02C9005A4FA5850CA97851 (void);
-// 0x00000064 HsRm.JuLu.Core.Interactables.InteractableTrigger HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand::get_InteractableTrigger()
+// 0x00000066 HsRm.JuLu.Core.Interactables.InteractableTrigger HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand::get_InteractableTrigger()
 extern void InteractableTriggerCommand_get_InteractableTrigger_m4FA6622D781B8FFA74AB42C7650F7BF24F905536 (void);
-// 0x00000065 System.Boolean HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand::CanUseInteractable(HsRm.JuLu.Core.Interactables.Interactable)
+// 0x00000067 System.Boolean HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand::CanUseInteractable(HsRm.JuLu.Core.Interactables.Interactable)
 extern void InteractableTriggerCommand_CanUseInteractable_m38E601E7FC0B9024321512504A52C8D27B1391E8 (void);
-// 0x00000066 System.Void HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand::ExecuteCommand()
+// 0x00000068 System.Void HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand::ExecuteCommand()
 extern void InteractableTriggerCommand_ExecuteCommand_mCA899030BDD5BFB1D6EE78D4EAEAF4054E728E7F (void);
-// 0x00000067 System.Void HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand::.ctor()
+// 0x00000069 System.Void HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand::.ctor()
 extern void InteractableTriggerCommand__ctor_mEE9D8D84FFFF7BDF59C5A5D666C4FD69CB873D1A (void);
-// 0x00000068 System.Void HsRm.JuLu.Core.Commands.Input.KeyDownCommand::ExecuteCommand()
+// 0x0000006A System.Void HsRm.JuLu.Core.Commands.Input.KeyDownCommand::ExecuteCommand()
 extern void KeyDownCommand_ExecuteCommand_mAD0B1D0E7BFB0631511D86D42535B6B90E7CC60C (void);
-// 0x00000069 System.Void HsRm.JuLu.Core.Commands.Input.KeyDownCommand::Update()
+// 0x0000006B System.Void HsRm.JuLu.Core.Commands.Input.KeyDownCommand::Update()
 extern void KeyDownCommand_Update_mBD4F01D4B00E92985AB2660E9964341D2D52ED74 (void);
-// 0x0000006A System.Void HsRm.JuLu.Core.Commands.Input.KeyDownCommand::.ctor()
+// 0x0000006C System.Void HsRm.JuLu.Core.Commands.Input.KeyDownCommand::.ctor()
 extern void KeyDownCommand__ctor_m0001E897A6D20F1E22106588F41A665326510CFF (void);
-// 0x0000006B HsRm.JuLu.Core.Collectables.Collectable HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::get_Collectable()
+// 0x0000006D HsRm.JuLu.Core.Collectables.Collectable HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::get_Collectable()
 extern void GetCollectableCommand_get_Collectable_m53151165B4D418E82E18040CA021A880D19850B7 (void);
-// 0x0000006C System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::set_Collectable(HsRm.JuLu.Core.Collectables.Collectable)
+// 0x0000006E System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::set_Collectable(HsRm.JuLu.Core.Collectables.Collectable)
 extern void GetCollectableCommand_set_Collectable_m23621A685194D93A63AE1D9A30C77FC85519176F (void);
-// 0x0000006D System.Boolean HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::get_IsCollectable()
+// 0x0000006F System.Boolean HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::get_IsCollectable()
 extern void GetCollectableCommand_get_IsCollectable_m9E1C85C09D0CD7959FB1B2629B71037DBAC6BE8F (void);
-// 0x0000006E System.Boolean HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::get_IsExecutable()
+// 0x00000070 System.Boolean HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::get_IsExecutable()
 extern void GetCollectableCommand_get_IsExecutable_m1FCBA1274AB87946306203AFDD590B22C4EE5E29 (void);
-// 0x0000006F System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::set_IsExecutable(System.Boolean)
+// 0x00000071 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::set_IsExecutable(System.Boolean)
 extern void GetCollectableCommand_set_IsExecutable_mB66515A42160BD13480F505426634C6096D8B69C (void);
-// 0x00000070 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::ExecuteCommand()
+// 0x00000072 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::ExecuteCommand()
 extern void GetCollectableCommand_ExecuteCommand_m23662088D0B38B5B432F676B8A485D396542569C (void);
-// 0x00000071 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::GetCollectable(HsRm.JuLu.Core.Collectables.Collectable)
+// 0x00000073 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::GetCollectable(HsRm.JuLu.Core.Collectables.Collectable)
 extern void GetCollectableCommand_GetCollectable_mFEE8066C961A28425368908B290AA6D485BA4732 (void);
-// 0x00000072 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::SetCollectable(HsRm.JuLu.Core.Collectables.Collectable)
+// 0x00000074 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::SetCollectable(HsRm.JuLu.Core.Collectables.Collectable)
 extern void GetCollectableCommand_SetCollectable_mBCA46EA0C60AD833933170AD4794AFCB38FEAFD2 (void);
-// 0x00000073 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::ClearCollectable()
+// 0x00000075 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::ClearCollectable()
 extern void GetCollectableCommand_ClearCollectable_mD597B30173BA149F4E9577C525D8AA563646BE8A (void);
-// 0x00000074 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::.ctor()
+// 0x00000076 System.Void HsRm.JuLu.Core.Commands.Collectables.GetCollectableCommand::.ctor()
 extern void GetCollectableCommand__ctor_m22B57A0873C806DE2038B85B1FA480BFEF1CAE31 (void);
-// 0x00000075 System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorConditionCommand::ExecuteCommand()
+// 0x00000077 System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorConditionCommand::ExecuteCommand()
 extern void AnimatorConditionCommand_ExecuteCommand_m98D22EA0ED88235C0D6540FF6CDCFAD9A0C830D3 (void);
-// 0x00000076 System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorConditionCommand::.ctor()
+// 0x00000078 System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorConditionCommand::.ctor()
 extern void AnimatorConditionCommand__ctor_mFE9AA69D4541395D7C8495309332410334622ECC (void);
-// 0x00000077 System.Boolean HsRm.JuLu.Core.Commands.Animate.AnimatorStateCommand::get_BoolValue()
+// 0x00000079 System.Boolean HsRm.JuLu.Core.Commands.Animate.AnimatorStateCommand::get_BoolValue()
 extern void AnimatorStateCommand_get_BoolValue_m3B3CE8C46C534F0A2EBD146354C170621196E323 (void);
-// 0x00000078 System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorStateCommand::set_BoolValue(System.Boolean)
+// 0x0000007A System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorStateCommand::set_BoolValue(System.Boolean)
 extern void AnimatorStateCommand_set_BoolValue_m199BC9641034748C51FA2EE8AE45754627555777 (void);
-// 0x00000079 System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorStateCommand::ExecuteCommand()
+// 0x0000007B System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorStateCommand::ExecuteCommand()
 extern void AnimatorStateCommand_ExecuteCommand_m6712BB873E3876A9C7D04A6EBEB3FBD009A2C789 (void);
-// 0x0000007A System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorStateCommand::.ctor()
+// 0x0000007C System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorStateCommand::.ctor()
 extern void AnimatorStateCommand__ctor_m94C48045D1CFE39F522F21A001A7BDD0886B0257 (void);
-// 0x0000007B System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorTriggerCommand::ExecuteCommand()
+// 0x0000007D System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorTriggerCommand::ExecuteCommand()
 extern void AnimatorTriggerCommand_ExecuteCommand_mF63F264EFD80422653F76E2693064F6177BF769B (void);
-// 0x0000007C System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorTriggerCommand::.ctor()
+// 0x0000007E System.Void HsRm.JuLu.Core.Commands.Animate.AnimatorTriggerCommand::.ctor()
 extern void AnimatorTriggerCommand__ctor_mCBC008560B6B5BAE0F7902FD0D88F7A317184D5C (void);
-// 0x0000007D System.Void HsRm.JuLu.Core.Collectables.Collectable::.ctor(HsRm.JuLu.Core.CollectableEvent)
+// 0x0000007F System.Void HsRm.JuLu.Core.Collectables.Collectable::.ctor(HsRm.JuLu.Core.CollectableEvent)
 extern void Collectable__ctor_m4B7F9E2E4D88570F5624B89BAC5E9003D75B1FC1 (void);
-// 0x0000007E System.Void HsRm.JuLu.Core.Collectables.Collectable::Collect()
+// 0x00000080 System.Void HsRm.JuLu.Core.Collectables.Collectable::Collect()
 extern void Collectable_Collect_m4CC553EDEA0C82F9B8058D8768AFC549BE7E5D81 (void);
-// 0x0000007F System.String HsRm.JuLu.Core.Collectables.Collectable::get_Name()
+// 0x00000081 System.String HsRm.JuLu.Core.Collectables.Collectable::get_Name()
 extern void Collectable_get_Name_mDDB7A6BCB3AE6823495391A3F7BD11E5A257F4BF (void);
-// 0x00000080 HsRm.JuLu.Core.Collectables.CollectableType HsRm.JuLu.Core.Collectables.Collectable::get_Type()
+// 0x00000082 HsRm.JuLu.Core.Collectables.CollectableType HsRm.JuLu.Core.Collectables.Collectable::get_Type()
 extern void Collectable_get_Type_m7C331B5B0339C2D36279A3EB6FF6F539C27BEDD9 (void);
-// 0x00000081 UnityEngine.Vector3 HsRm.JuLu.Core.Cameras.CameraControl::get_LookPosition()
+// 0x00000083 UnityEngine.Vector3 HsRm.JuLu.Core.Cameras.CameraControl::get_LookPosition()
 extern void CameraControl_get_LookPosition_m1314C172FAA7C73CCBC516C1381049F6CE3C66D2 (void);
-// 0x00000082 UnityEngine.Quaternion HsRm.JuLu.Core.Cameras.CameraControl::get_LookRotation()
+// 0x00000084 UnityEngine.Quaternion HsRm.JuLu.Core.Cameras.CameraControl::get_LookRotation()
 extern void CameraControl_get_LookRotation_m6C96F21A9328D679A7DD37D5F74C49893D4B5445 (void);
-// 0x00000083 System.Void HsRm.JuLu.Core.Cameras.CameraControl::Update()
+// 0x00000085 System.Void HsRm.JuLu.Core.Cameras.CameraControl::Update()
 extern void CameraControl_Update_mABB343E7D9F395BB3E5A21640B8BE78EA5167FF5 (void);
-// 0x00000084 System.Void HsRm.JuLu.Core.Cameras.CameraControl::Activate()
+// 0x00000086 System.Void HsRm.JuLu.Core.Cameras.CameraControl::Activate()
 extern void CameraControl_Activate_m32462436AB46272898E0CA72C7757EBC1D70BD00 (void);
-// 0x00000085 System.Void HsRm.JuLu.Core.Cameras.CameraControl::Deactivate()
+// 0x00000087 System.Void HsRm.JuLu.Core.Cameras.CameraControl::Deactivate()
 extern void CameraControl_Deactivate_m09904DF4713C4330507E22A7BE731C99C525F84A (void);
-// 0x00000086 System.Void HsRm.JuLu.Core.Cameras.CameraControl::ToggleCursor()
+// 0x00000088 System.Void HsRm.JuLu.Core.Cameras.CameraControl::ToggleCursor()
 extern void CameraControl_ToggleCursor_m7C2E040CB8680CC8F878C774EE2F9D7EEC8D585C (void);
-// 0x00000087 System.Boolean HsRm.JuLu.Core.Cameras.CameraControl::get_LockCursor()
+// 0x00000089 System.Boolean HsRm.JuLu.Core.Cameras.CameraControl::get_LockCursor()
 extern void CameraControl_get_LockCursor_m7FC6907D82A6AA862FD885CA2403D4C4470DFCFC (void);
-// 0x00000088 System.Void HsRm.JuLu.Core.Cameras.CameraControl::set_LockCursor(System.Boolean)
+// 0x0000008A System.Void HsRm.JuLu.Core.Cameras.CameraControl::set_LockCursor(System.Boolean)
 extern void CameraControl_set_LockCursor_m0F4E83E1444251D6626D11774EE22FBCB321E526 (void);
-// 0x00000089 System.Void HsRm.JuLu.Core.Cameras.CameraControl::UpdateCursor()
+// 0x0000008B System.Void HsRm.JuLu.Core.Cameras.CameraControl::UpdateCursor()
 extern void CameraControl_UpdateCursor_m3387C37863993B4F7E03D8BB568E95CE67B48BEA (void);
-// 0x0000008A System.Void HsRm.JuLu.Core.Cameras.CameraControl::AlignTransform(UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x0000008C System.Void HsRm.JuLu.Core.Cameras.CameraControl::AlignTransform(UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void CameraControl_AlignTransform_m3207BDA96AFA2DDFEB6454B70364B87F4ECEA875 (void);
-// 0x0000008B System.Void HsRm.JuLu.Core.Cameras.CameraControl::HandleActivated()
+// 0x0000008D System.Void HsRm.JuLu.Core.Cameras.CameraControl::HandleActivated()
 extern void CameraControl_HandleActivated_m56E64776312233F39592E7D79F27390903D29C33 (void);
-// 0x0000008C System.Void HsRm.JuLu.Core.Cameras.CameraControl::HandleDeactivated()
+// 0x0000008E System.Void HsRm.JuLu.Core.Cameras.CameraControl::HandleDeactivated()
 extern void CameraControl_HandleDeactivated_m7F2E3DA76C01D3568C4543BB7A2F5EF2773D3FA7 (void);
-// 0x0000008D System.Void HsRm.JuLu.Core.Cameras.CameraControl::HandleUpdate()
+// 0x0000008F System.Void HsRm.JuLu.Core.Cameras.CameraControl::HandleUpdate()
 extern void CameraControl_HandleUpdate_mE2CCCDE8F2E5B46CC68A18DA5C48339BA0442A85 (void);
-// 0x0000008E UnityEngine.Camera HsRm.JuLu.Core.Cameras.CameraControl::get_Camera()
+// 0x00000090 UnityEngine.Camera HsRm.JuLu.Core.Cameras.CameraControl::get_Camera()
 extern void CameraControl_get_Camera_m881838E2897B62229AF0F1E8B50AAF1F063A2C6E (void);
-// 0x0000008F System.Boolean HsRm.JuLu.Core.Cameras.CameraControl::get_CurrentCameraControl()
+// 0x00000091 System.Boolean HsRm.JuLu.Core.Cameras.CameraControl::get_CurrentCameraControl()
 extern void CameraControl_get_CurrentCameraControl_m505CD88407E99EEE160E30743D3797F05D761A0E (void);
-// 0x00000090 System.Void HsRm.JuLu.Core.Cameras.CameraControl::.ctor()
+// 0x00000092 System.Void HsRm.JuLu.Core.Cameras.CameraControl::.ctor()
 extern void CameraControl__ctor_m0C341FBF668A8D753A2A0920058998C76E83A2A9 (void);
-// 0x00000091 HsRm.JuLu.Core.Cameras.CameraControl HsRm.JuLu.Core.Cameras.CameraController::get_CurrentCameraControl()
+// 0x00000093 HsRm.JuLu.Core.Cameras.CameraControl HsRm.JuLu.Core.Cameras.CameraController::get_CurrentCameraControl()
 extern void CameraController_get_CurrentCameraControl_m272766C1149BFBFF1BB553D77593C5F74B2FB924 (void);
-// 0x00000092 System.Void HsRm.JuLu.Core.Cameras.CameraController::set_CurrentCameraControl(HsRm.JuLu.Core.Cameras.CameraControl)
+// 0x00000094 System.Void HsRm.JuLu.Core.Cameras.CameraController::set_CurrentCameraControl(HsRm.JuLu.Core.Cameras.CameraControl)
 extern void CameraController_set_CurrentCameraControl_m77462860FCF0D2541698F5BD8F4904A9253F7108 (void);
-// 0x00000093 System.Void HsRm.JuLu.Core.Cameras.CameraController::Start()
+// 0x00000095 System.Void HsRm.JuLu.Core.Cameras.CameraController::Start()
 extern void CameraController_Start_m4919DDB2F7D71EEF30DA15852A076DC004D0F337 (void);
-// 0x00000094 System.Boolean HsRm.JuLu.Core.Cameras.CameraController::get_HasCurrentCameraControl()
+// 0x00000096 System.Boolean HsRm.JuLu.Core.Cameras.CameraController::get_HasCurrentCameraControl()
 extern void CameraController_get_HasCurrentCameraControl_m7F7908B87D24EB3E423D38170A4CD00EDCEFD2EF (void);
-// 0x00000095 System.Void HsRm.JuLu.Core.Cameras.CameraController::DeactivateSceneCameraControls()
+// 0x00000097 System.Void HsRm.JuLu.Core.Cameras.CameraController::DeactivateSceneCameraControls()
 extern void CameraController_DeactivateSceneCameraControls_m949955E115C245CCF70DA883261F6F13A4F195A9 (void);
-// 0x00000096 System.Void HsRm.JuLu.Core.Cameras.CameraController::ActivateCameraControl(HsRm.JuLu.Core.Cameras.CameraControl)
+// 0x00000098 System.Void HsRm.JuLu.Core.Cameras.CameraController::ActivateCameraControl(HsRm.JuLu.Core.Cameras.CameraControl)
 extern void CameraController_ActivateCameraControl_mEEC116332EBA8885293A3D1F353552C504621142 (void);
-// 0x00000097 System.Void HsRm.JuLu.Core.Cameras.CameraController::DeactivateCurrentCameraControl()
+// 0x00000099 System.Void HsRm.JuLu.Core.Cameras.CameraController::DeactivateCurrentCameraControl()
 extern void CameraController_DeactivateCurrentCameraControl_m61FD8A8DDB53DE516C72905BE595D6D169D7D143 (void);
-// 0x00000098 System.Void HsRm.JuLu.Core.Cameras.CameraController::.ctor()
+// 0x0000009A System.Void HsRm.JuLu.Core.Cameras.CameraController::.ctor()
 extern void CameraController__ctor_m5BCE1C27148C6024A54644831C859793C0253590 (void);
-// 0x00000099 UnityEngine.Vector3 HsRm.JuLu.Core.Cameras.DebugCamera::get_HeadOffset()
+// 0x0000009B UnityEngine.Vector3 HsRm.JuLu.Core.Cameras.DebugCamera::get_HeadOffset()
 extern void DebugCamera_get_HeadOffset_mA72AF7198763231397A097784BBB9CE223C7853F (void);
-// 0x0000009A UnityEngine.Vector3 HsRm.JuLu.Core.Cameras.DebugCamera::get_LookPosition()
+// 0x0000009C UnityEngine.Vector3 HsRm.JuLu.Core.Cameras.DebugCamera::get_LookPosition()
 extern void DebugCamera_get_LookPosition_m8387DC2A4D2B683BA51DA59681CC09F2CCBCF4F4 (void);
-// 0x0000009B UnityEngine.Quaternion HsRm.JuLu.Core.Cameras.DebugCamera::get_LookRotation()
+// 0x0000009D UnityEngine.Quaternion HsRm.JuLu.Core.Cameras.DebugCamera::get_LookRotation()
 extern void DebugCamera_get_LookRotation_m0157A7177C747B605FC069B59645DF29E9B7859D (void);
-// 0x0000009C System.Void HsRm.JuLu.Core.Cameras.DebugCamera::Awake()
+// 0x0000009E System.Void HsRm.JuLu.Core.Cameras.DebugCamera::Awake()
 extern void DebugCamera_Awake_m2A0A2CDE8673D2FC6EE036F114EC84BFB711C471 (void);
-// 0x0000009D System.Void HsRm.JuLu.Core.Cameras.DebugCamera::AlignTransform(UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x0000009F System.Void HsRm.JuLu.Core.Cameras.DebugCamera::AlignTransform(UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void DebugCamera_AlignTransform_mAE0AE7404F2F3D3379FF0CC9A48CC421A35B62F2 (void);
-// 0x0000009E System.Void HsRm.JuLu.Core.Cameras.DebugCamera::HandleActivated()
+// 0x000000A0 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::HandleActivated()
 extern void DebugCamera_HandleActivated_mB0D80D342A2C5C7153C86C699A9C9E4859380000 (void);
-// 0x0000009F System.Void HsRm.JuLu.Core.Cameras.DebugCamera::HandleDeactivated()
+// 0x000000A1 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::HandleDeactivated()
 extern void DebugCamera_HandleDeactivated_mC0F0B51A4443FE5950AFFD10FF3EE1265050763C (void);
-// 0x000000A0 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::HandleUpdate()
+// 0x000000A2 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::HandleUpdate()
 extern void DebugCamera_HandleUpdate_mDA3B4A5BB8CC1A54B8AE1429372D7D32FF213BCE (void);
-// 0x000000A1 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::ApplyLookRotation()
+// 0x000000A3 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::ApplyLookRotation()
 extern void DebugCamera_ApplyLookRotation_m5FCAFBB154A3619CC9060B2BB9E1A7C56DB4114D (void);
-// 0x000000A2 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::ReadMovementInput()
+// 0x000000A4 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::ReadMovementInput()
 extern void DebugCamera_ReadMovementInput_m9B591824EFFFBCD348B6EF8AB74B80ED44B8B707 (void);
-// 0x000000A3 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::ApplyMovement()
+// 0x000000A5 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::ApplyMovement()
 extern void DebugCamera_ApplyMovement_m5F44441499430D0948EFA4CA02EDE206ED4AC75A (void);
-// 0x000000A4 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::OnControllerColliderHit(UnityEngine.ControllerColliderHit)
+// 0x000000A6 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::OnControllerColliderHit(UnityEngine.ControllerColliderHit)
 extern void DebugCamera_OnControllerColliderHit_m69D72BB36B6ACA63AAB6D1484427D1B57EF06272 (void);
-// 0x000000A5 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::.ctor()
+// 0x000000A7 System.Void HsRm.JuLu.Core.Cameras.DebugCamera::.ctor()
 extern void DebugCamera__ctor_mA24F043D0D3B45B067DAE36ED5A7409B4D94E93A (void);
-static Il2CppMethodPointer s_methodPointers[165] = 
+static Il2CppMethodPointer s_methodPointers[167] = 
 {
 	ActionOnTrigger_OnTriggerEnter_mD55C9DA3990A808F632F7B6FDDBFAADD7522BA11,
 	ActionOnTrigger__ctor_mB3B82A67E369EA4DA2BAC1BA9927F68774723FE6,
@@ -429,6 +433,8 @@ static Il2CppMethodPointer s_methodPointers[165] =
 	BaseRaycasterCommand_get_Raycaster_mE90659A74119F2C8E461E695EEE7E1BE3B4B5D54,
 	BaseRaycasterCommand_get_MaxDistance_m979A85C387EE252A43B3FF22ACD566197C8F0C51,
 	BaseRaycasterCommand__ctor_m68107B032870CCDD63CF184AB918445356A61E67,
+	TagToggleCommand_toggleTag_m9A0F79D7406763B79F3EBD0764DB69C31A1D3FF5,
+	TagToggleCommand__ctor_mEFAB02AF6803FD3C685F7E6905FB5A33EC334235,
 	UpdateRaycasterCommand_HandleHit_m47FAE98FEC1B2519CA016694739A30BDDF4FBA45,
 	UpdateRaycasterCommand_HandleMiss_m97E1C3847A2916458FC8EE3BABA05A9A200A58D7,
 	UpdateRaycasterCommand_DrawDebugRay_m923863AC5BBAC3244AEAAAA8CC2B693F456D4668,
@@ -506,7 +512,7 @@ static Il2CppMethodPointer s_methodPointers[165] =
 	DebugCamera_OnControllerColliderHit_m69D72BB36B6ACA63AAB6D1484427D1B57EF06272,
 	DebugCamera__ctor_mA24F043D0D3B45B067DAE36ED5A7409B4D94E93A,
 };
-static const int32_t s_InvokerIndices[165] = 
+static const int32_t s_InvokerIndices[167] = 
 {
 	3574,
 	4534,
@@ -597,6 +603,8 @@ static const int32_t s_InvokerIndices[165] =
 	4440,
 	4481,
 	4534,
+	4534,
+	4534,
 	3591,
 	4534,
 	2009,
@@ -678,7 +686,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	165,
+	167,
 	s_methodPointers,
 	0,
 	NULL,
