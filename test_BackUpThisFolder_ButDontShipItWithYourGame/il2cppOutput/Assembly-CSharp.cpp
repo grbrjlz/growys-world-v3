@@ -66,6 +66,18 @@ struct VirtualFuncInvoker1
 	}
 };
 
+// System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>
+struct Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
+struct Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>>
+struct IEnumerable_1_t1505882F156BCF9BDBEA8A8D84AD2E17A62023B4;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>>
+struct IEnumerable_1_t76AB0BC9B3C9C1EAE8CA0B959CFF2D5BF2B7BB5A;
+// System.Collections.Generic.IEqualityComparer`1<HsRm.JuLu.Core.Collectables.CollectableItem>
+struct IEqualityComparer_1_t1813156886AA9C82E4177A65F382C1DDAB6529F2;
+// System.Collections.Generic.Dictionary`2/KeyCollection<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>
+struct KeyCollection_tF16E5AFE43E5CFCE25E19A56D1902269CF5532AA;
 // System.Collections.Generic.List`1<UnityEngine.UI.Image>
 struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
 // System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>
@@ -88,10 +100,16 @@ struct UnityEvent_1_t19F197A8BE4C8C34A73A9E64C6A387AB1F78669E;
 struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205;
 // UnityEngine.Events.UnityEvent`1<System.Single>
 struct UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4;
+// System.Collections.Generic.Dictionary`2/ValueCollection<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>
+struct ValueCollection_t5051D83F408CB87A3DD166A4DD422A83F7151FE5;
+// System.Collections.Generic.Dictionary`2/Entry<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>[]
+struct EntryU5BU5D_tBE40E095A93C5DA5AF9216457DD376F90F6B06EF;
 // HsRm.JuLu.Core.Cameras.CameraControl[]
 struct CameraControlU5BU5D_tDED27C8A060EDD62327458DDB45FCC003658F472;
 // UnityEngine.XR.InputDevice[]
 struct InputDeviceU5BU5D_t1361FC6DDFE12D211F933B024E51B7E5CF073F63;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 // System.Object[]
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 // UnityEngine.Vector2[]
@@ -134,6 +152,8 @@ struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A;
 struct Collectable_tD5509EF313C32B47D110ECF2D091BB0900B04536;
 // HsRm.JuLu.Core.CollectableEvent
 struct CollectableEvent_t480DA0685337311910463D49C34668ECBAB44E6E;
+// HsRm.JuLu.Core.Collectables.CollectableItem
+struct CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390;
 // UnityEngine.Collider
 struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
 // HsRm.JuLu.Core.ColliderEvent
@@ -174,6 +194,8 @@ struct InteractableToggleCommand_tD2E732AA085A460312CCAC18278C1FF8D9700A31;
 struct InteractableTrigger_t17A134AEBF68240DAAD7CB36BF366EA914071701;
 // HsRm.JuLu.Core.Commands.Interactables.InteractableTriggerCommand
 struct InteractableTriggerCommand_t7FE757F40EFD6FB4284BD706165AD20816FF06E9;
+// HsRm.JuLu.Core.Utils.Inventory
+struct Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F;
 // UnityEngine.Events.InvokableCallList
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 // HsRm.JuLu.Core.Objects.Item
@@ -200,6 +222,8 @@ struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
 // UnityEngine.Rigidbody
 struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+// UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
 // UnityEngine.Sprite
 struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
 // System.String
@@ -227,6 +251,7 @@ struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 
 IL2CPP_EXTERN_C RuntimeClass* CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InteractableToggle_tAA68CCCD769131B8566BCC4F0DB97F43A800317C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InteractableTrigger_t17A134AEBF68240DAAD7CB36BF366EA914071701_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var;
@@ -253,6 +278,13 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697
 IL2CPP_EXTERN_C const RuntimeMethod* Component_TryGetComponent_TisCollectable_tD5509EF313C32B47D110ECF2D091BB0900B04536_m42891A9A398A569F7319B245D79CF4C6A53078B1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_TryGetComponent_TisInteractableSelector_t4C1E09CD96B7D929CE32533A437B297E6051C5ED_m18F1B581269581CF230DD78BAAAA5EC96093EDCB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_TryGetComponent_TisInteractable_t528D32A6FDBAD91B349D361DBC33AC8FD6348EC4_mDE3612BFD0EDF04792AE2A4F80DB2635D72838E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Add_m5BEFD6816CDA807305FD9C7D6ABC0BDAB9163D49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m10FD01BAC780DA891F66EC6A6F5B4FE7E606D204_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m58BDAEEA305AAC918C087A041A183503E3683004_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_mE703A90D30889405B23348D843E683DE7F2C81D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m1188923212239EB429D63769490A52C435065E2F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m219AD9DDA8D10EEB6CBA83CB13E651CA3F13410F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_AsEnumerable_TisKeyValuePair_2_t878E3B69A83800FEF9BE89A2B82130F7E91FF2BA_mE8B65B9A5778E079314DC8DA121504F324A36359_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var;
@@ -280,6 +312,31 @@ IL2CPP_EXTERN_C_END
 // <Module>
 struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
 {
+};
+
+// System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>
+struct Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_tBE40E095A93C5DA5AF9216457DD376F90F6B06EF* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_tF16E5AFE43E5CFCE25E19A56D1902269CF5532AA* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_t5051D83F408CB87A3DD166A4DD422A83F7151FE5* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
 };
 
 // System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>
@@ -1141,9 +1198,29 @@ struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC1
 {
 };
 
+// UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+// Native definition for P/Invoke marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+
 // UnityEngine.Behaviour
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
+};
+
+// HsRm.JuLu.Core.Collectables.CollectableItem
+struct CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// System.String HsRm.JuLu.Core.Collectables.CollectableItem::name
+	String_t* ___name_4;
 };
 
 // UnityEngine.Collider
@@ -1293,6 +1370,15 @@ struct InteractableSelector_t4C1E09CD96B7D929CE32533A437B297E6051C5ED  : public 
 {
 	// HsRm.JuLu.Core.Interactables.Interactable HsRm.JuLu.Core.Interactables.InteractableSelector::interactable
 	Interactable_t528D32A6FDBAD91B349D361DBC33AC8FD6348EC4* ___interactable_4;
+};
+
+// HsRm.JuLu.Core.Utils.Inventory
+struct Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32> HsRm.JuLu.Core.Utils.Inventory::items
+	Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* ___items_4;
+	// UnityEngine.Events.UnityEvent HsRm.JuLu.Core.Utils.Inventory::InventoryUpdated
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___InventoryUpdated_5;
 };
 
 // HsRm.JuLu.Core.Utils.MouseLock
@@ -1673,6 +1759,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1__ctor_mCE6AA3B34C1148F11D12
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB692BB82525C6DD422_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Boolean>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1__ctor_m7A1EF666468DD954D61FBAD7C721229BD3589934_gshared (UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::AsEnumerable<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>>(System.Collections.Generic.IEnumerable`1<TSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_AsEnumerable_TisKeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8_m4F17518529EBB963920A01C6B834E022FD79F10F_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::ContainsKey(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m1087B74B4FF5004CBB6CC864FF1C87B6DB138505_gshared (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+// TValue System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::get_Item(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Dictionary_2_get_Item_mA019F7A495B48EF2A6E5D36977DB3EA09A47ECDB_gshared (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::set_Item(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m72CC2F1213D1C1B8ABEDE31082D07B67EC873B13_gshared (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* __this, RuntimeObject* ___key0, int32_t ___value1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Add(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m63897227AFA7035F1772315ABBBE7FD0A250E10C_gshared (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* __this, RuntimeObject* ___key0, int32_t ___value1, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::TryGetValue(TKey,TValue&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m4B8EE45640C70BBFD6F3EFF1040983404C098342_gshared (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* __this, RuntimeObject* ___key0, int32_t* ___value1, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m517E7F9D104FEAE6646EABDDC9C852510E86077C_gshared (Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponentInParent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Boolean>::Invoke(T0)
@@ -1799,6 +1899,45 @@ inline void UnityEvent_1__ctor_m7A1EF666468DD954D61FBAD7C721229BD3589934 (UnityE
 {
 	((  void (*) (UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB*, const RuntimeMethod*))UnityEvent_1__ctor_m7A1EF666468DD954D61FBAD7C721229BD3589934_gshared)(__this, method);
 }
+// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::AsEnumerable<System.Collections.Generic.KeyValuePair`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>>(System.Collections.Generic.IEnumerable`1<TSource>)
+inline RuntimeObject* Enumerable_AsEnumerable_TisKeyValuePair_2_t878E3B69A83800FEF9BE89A2B82130F7E91FF2BA_mE8B65B9A5778E079314DC8DA121504F324A36359 (RuntimeObject* ___source0, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_AsEnumerable_TisKeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8_m4F17518529EBB963920A01C6B834E022FD79F10F_gshared)(___source0, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>::ContainsKey(TKey)
+inline bool Dictionary_2_ContainsKey_m10FD01BAC780DA891F66EC6A6F5B4FE7E606D204 (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036*, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390*, const RuntimeMethod*))Dictionary_2_ContainsKey_m1087B74B4FF5004CBB6CC864FF1C87B6DB138505_gshared)(__this, ___key0, method);
+}
+// TValue System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>::get_Item(TKey)
+inline int32_t Dictionary_2_get_Item_m1188923212239EB429D63769490A52C435065E2F (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___key0, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036*, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390*, const RuntimeMethod*))Dictionary_2_get_Item_mA019F7A495B48EF2A6E5D36977DB3EA09A47ECDB_gshared)(__this, ___key0, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>::set_Item(TKey,TValue)
+inline void Dictionary_2_set_Item_m219AD9DDA8D10EEB6CBA83CB13E651CA3F13410F (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___key0, int32_t ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036*, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390*, int32_t, const RuntimeMethod*))Dictionary_2_set_Item_m72CC2F1213D1C1B8ABEDE31082D07B67EC873B13_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>::Add(TKey,TValue)
+inline void Dictionary_2_Add_m5BEFD6816CDA807305FD9C7D6ABC0BDAB9163D49 (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___key0, int32_t ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036*, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390*, int32_t, const RuntimeMethod*))Dictionary_2_Add_m63897227AFA7035F1772315ABBBE7FD0A250E10C_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Void UnityEngine.Events.UnityEvent::Invoke()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+// System.Int32 HsRm.JuLu.Core.Utils.Inventory::GetItemCount(HsRm.JuLu.Core.Collectables.CollectableItem)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Inventory_GetItemCount_m1DD2FEC9F1356FEABD0BA883EBF56DD6371312AD (Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___item0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>::TryGetValue(TKey,TValue&)
+inline bool Dictionary_2_TryGetValue_m58BDAEEA305AAC918C087A041A183503E3683004 (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___key0, int32_t* ___value1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036*, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390*, int32_t*, const RuntimeMethod*))Dictionary_2_TryGetValue_m4B8EE45640C70BBFD6F3EFF1040983404C098342_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>::.ctor()
+inline void Dictionary_2__ctor_mE703A90D30889405B23348D843E683DE7F2C81D0 (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036*, const RuntimeMethod*))Dictionary_2__ctor_m517E7F9D104FEAE6646EABDDC9C852510E86077C_gshared)(__this, method);
+}
 // UnityEngine.Vector3 UnityEngine.Transform::get_localEulerAngles()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localEulerAngles_m358AA9AE8FA24FD1BB7842D231C8644D1C2910C6 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Transform::get_eulerAngles()
@@ -1871,8 +2010,6 @@ inline void UnityEvent_1_Invoke_m4810FCA7EC353CAA7770E91777A04496C5663653 (Unity
 }
 // System.Void HsRm.JuLu.Core.Interactables.Interactable::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactable__ctor_m8BC24DA81B761E93A9CB1487AF5CA3D6082E3E3D (Interactable_t528D32A6FDBAD91B349D361DBC33AC8FD6348EC4* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Events.UnityEvent::Invoke()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
 // System.Boolean HsRm.JuLu.Core.Commands.BaseCommand::get_IsExecutable()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BaseCommand_get_IsExecutable_mFAD301BC5E8189D317A0E792FAEC3554E7F9D665_inline (BaseCommand_t4E942BA530B5D42847F9BADA13D71D5A25B5CE81* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
@@ -1998,6 +2135,8 @@ inline void UnityEvent_1_Invoke_m673CC5ED08EE41EB430BFA2094BB4E0E156C5F81 (Unity
 {
 	((  void (*) (UnityEvent_1_t00EA16774DEED693B845BACBF1C2E1DCE6320C65*, Collectable_tD5509EF313C32B47D110ECF2D091BB0900B04536*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
 }
+// System.Void UnityEngine.ScriptableObject::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Cursor::set_lockState(UnityEngine.CursorLockMode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_lockState_m5CA1C31AF58CE2CDFD4F6999B4F42C9D0DF8A99D (int32_t ___value0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Application::get_isEditor()
@@ -3246,6 +3385,292 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Raycaster__ctor_m4A755267AE86F282843BA2B019B13DD0B3C3E721 (Raycaster_t276450D8D6EA54C2D1D707656D70B3162E2FC0B8* __this, const RuntimeMethod* method) 
 {
 	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32>> HsRm.JuLu.Core.Utils.Inventory::get_Items()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Inventory_get_Items_m4435BD163D99434C937CC920399BA49BC8B566FF (Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_AsEnumerable_TisKeyValuePair_2_t878E3B69A83800FEF9BE89A2B82130F7E91FF2BA_mE8B65B9A5778E079314DC8DA121504F324A36359_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public IEnumerable<KeyValuePair<CollectableItem, int>> Items => items.AsEnumerable();
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_0 = __this->___items_4;
+		RuntimeObject* L_1;
+		L_1 = Enumerable_AsEnumerable_TisKeyValuePair_2_t878E3B69A83800FEF9BE89A2B82130F7E91FF2BA_mE8B65B9A5778E079314DC8DA121504F324A36359(L_0, Enumerable_AsEnumerable_TisKeyValuePair_2_t878E3B69A83800FEF9BE89A2B82130F7E91FF2BA_mE8B65B9A5778E079314DC8DA121504F324A36359_RuntimeMethod_var);
+		return L_1;
+	}
+}
+// System.Void HsRm.JuLu.Core.Utils.Inventory::AddItem(HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Inventory_AddItem_m2F1D9FC29FDE25F653791D8188BBB1CED7DB1CC4 (Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___item0, int32_t ___amount1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Add_m5BEFD6816CDA807305FD9C7D6ABC0BDAB9163D49_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m10FD01BAC780DA891F66EC6A6F5B4FE7E606D204_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1188923212239EB429D63769490A52C435065E2F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m219AD9DDA8D10EEB6CBA83CB13E651CA3F13410F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* V_1 = NULL;
+	CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* V_2 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B5_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B4_0 = NULL;
+	{
+		// if (items.ContainsKey(item))
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_0 = __this->___items_4;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_1 = ___item0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_m10FD01BAC780DA891F66EC6A6F5B4FE7E606D204(L_0, L_1, Dictionary_2_ContainsKey_m10FD01BAC780DA891F66EC6A6F5B4FE7E606D204_RuntimeMethod_var);
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		// items[item] += amount;
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_4 = __this->___items_4;
+		V_1 = L_4;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_5 = ___item0;
+		V_2 = L_5;
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_6 = V_1;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_7 = V_2;
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_8 = V_1;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_9 = V_2;
+		NullCheck(L_8);
+		int32_t L_10;
+		L_10 = Dictionary_2_get_Item_m1188923212239EB429D63769490A52C435065E2F(L_8, L_9, Dictionary_2_get_Item_m1188923212239EB429D63769490A52C435065E2F_RuntimeMethod_var);
+		int32_t L_11 = ___amount1;
+		NullCheck(L_6);
+		Dictionary_2_set_Item_m219AD9DDA8D10EEB6CBA83CB13E651CA3F13410F(L_6, L_7, ((int32_t)il2cpp_codegen_add(L_10, L_11)), Dictionary_2_set_Item_m219AD9DDA8D10EEB6CBA83CB13E651CA3F13410F_RuntimeMethod_var);
+		goto IL_003f;
+	}
+
+IL_002f:
+	{
+		// items.Add(item, amount);
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_12 = __this->___items_4;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_13 = ___item0;
+		int32_t L_14 = ___amount1;
+		NullCheck(L_12);
+		Dictionary_2_Add_m5BEFD6816CDA807305FD9C7D6ABC0BDAB9163D49(L_12, L_13, L_14, Dictionary_2_Add_m5BEFD6816CDA807305FD9C7D6ABC0BDAB9163D49_RuntimeMethod_var);
+	}
+
+IL_003f:
+	{
+		// InventoryUpdated?.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_15 = __this->___InventoryUpdated_5;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_16 = L_15;
+		G_B4_0 = L_16;
+		if (L_16)
+		{
+			G_B5_0 = L_16;
+			goto IL_004b;
+		}
+	}
+	{
+		goto IL_0051;
+	}
+
+IL_004b:
+	{
+		NullCheck(G_B5_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B5_0, NULL);
+	}
+
+IL_0051:
+	{
+		// }
+		return;
+	}
+}
+// System.Void HsRm.JuLu.Core.Utils.Inventory::RemoveItem(HsRm.JuLu.Core.Collectables.CollectableItem,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Inventory_RemoveItem_mBE5DC44D4DE3591D60408D9400FF6DC3C4F9BC7D (Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___item0, int32_t ___amount1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1188923212239EB429D63769490A52C435065E2F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m219AD9DDA8D10EEB6CBA83CB13E651CA3F13410F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* V_1 = NULL;
+	CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* V_2 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B3_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B2_0 = NULL;
+	{
+		// if (GetItemCount(item) >= amount)
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_0 = ___item0;
+		int32_t L_1;
+		L_1 = Inventory_GetItemCount_m1DD2FEC9F1356FEABD0BA883EBF56DD6371312AD(__this, L_0, NULL);
+		int32_t L_2 = ___amount1;
+		V_0 = (bool)((((int32_t)((((int32_t)L_1) < ((int32_t)L_2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		// items[item] -= amount;
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_4 = __this->___items_4;
+		V_1 = L_4;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_5 = ___item0;
+		V_2 = L_5;
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_6 = V_1;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_7 = V_2;
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_8 = V_1;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_9 = V_2;
+		NullCheck(L_8);
+		int32_t L_10;
+		L_10 = Dictionary_2_get_Item_m1188923212239EB429D63769490A52C435065E2F(L_8, L_9, Dictionary_2_get_Item_m1188923212239EB429D63769490A52C435065E2F_RuntimeMethod_var);
+		int32_t L_11 = ___amount1;
+		NullCheck(L_6);
+		Dictionary_2_set_Item_m219AD9DDA8D10EEB6CBA83CB13E651CA3F13410F(L_6, L_7, ((int32_t)il2cpp_codegen_subtract(L_10, L_11)), Dictionary_2_set_Item_m219AD9DDA8D10EEB6CBA83CB13E651CA3F13410F_RuntimeMethod_var);
+		// InventoryUpdated?.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_12 = __this->___InventoryUpdated_5;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_13 = L_12;
+		G_B2_0 = L_13;
+		if (L_13)
+		{
+			G_B3_0 = L_13;
+			goto IL_0039;
+		}
+	}
+	{
+		goto IL_003f;
+	}
+
+IL_0039:
+	{
+		NullCheck(G_B3_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B3_0, NULL);
+	}
+
+IL_003f:
+	{
+	}
+
+IL_0040:
+	{
+		// }
+		return;
+	}
+}
+// System.Boolean HsRm.JuLu.Core.Utils.Inventory::ContainsItem(HsRm.JuLu.Core.Collectables.CollectableItem)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Inventory_ContainsItem_mFB3895B2D11CE38CAC61C779AEF3FB39D3C5717F (Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___item0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m58BDAEEA305AAC918C087A041A183503E3683004_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		// public bool ContainsItem(CollectableItem item) => items.TryGetValue(item, out var amount) && amount > 0;
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_0 = __this->___items_4;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_1 = ___item0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_TryGetValue_m58BDAEEA305AAC918C087A041A183503E3683004(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m58BDAEEA305AAC918C087A041A183503E3683004_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		G_B3_0 = ((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Int32 HsRm.JuLu.Core.Utils.Inventory::GetItemCount(HsRm.JuLu.Core.Collectables.CollectableItem)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Inventory_GetItemCount_m1DD2FEC9F1356FEABD0BA883EBF56DD6371312AD (Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F* __this, CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* ___item0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m58BDAEEA305AAC918C087A041A183503E3683004_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		// private int GetItemCount(CollectableItem item) => items.TryGetValue(item, out var amount) ? amount : 0;
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_0 = __this->___items_4;
+		CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* L_1 = ___item0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_TryGetValue_m58BDAEEA305AAC918C087A041A183503E3683004(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m58BDAEEA305AAC918C087A041A183503E3683004_RuntimeMethod_var);
+		if (L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		goto IL_0014;
+	}
+
+IL_0013:
+	{
+		int32_t L_3 = V_0;
+		G_B3_0 = L_3;
+	}
+
+IL_0014:
+	{
+		return G_B3_0;
+	}
+}
+// System.Void HsRm.JuLu.Core.Utils.Inventory::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Inventory__ctor_m3C69F75A57F9634966CC8902E5B92EDDD1A15D54 (Inventory_t35ED49B70B09F30B8CE01D8D217B1D0BB31D187F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_mE703A90D30889405B23348D843E683DE7F2C81D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// [SerializeField] private Dictionary<CollectableItem, int> items = new();
+		Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036* L_0 = (Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036*)il2cpp_codegen_object_new(Dictionary_2_t5388E20F3A52DA89C4D972238E2028798A9C9036_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		Dictionary_2__ctor_mE703A90D30889405B23348D843E683DE7F2C81D0(L_0, Dictionary_2__ctor_mE703A90D30889405B23348D843E683DE7F2C81D0_RuntimeMethod_var);
+		__this->___items_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___items_4), (void*)L_0);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -5811,6 +6236,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Collectable_get_Type_m7C331B5B0339C2D
 		// public CollectableType Type => type;
 		int32_t L_0 = __this->___type_5;
 		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String HsRm.JuLu.Core.Collectables.CollectableItem::get_Name()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CollectableItem_get_Name_mBD29335785E58CF044AB6A46E2DCEB68982F888F (CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* __this, const RuntimeMethod* method) 
+{
+	{
+		// public string Name => name;
+		String_t* L_0 = __this->___name_4;
+		return L_0;
+	}
+}
+// System.Void HsRm.JuLu.Core.Collectables.CollectableItem::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CollectableItem__ctor_m69BEDB9FACBB98F31BF6FFE0B7CEEBA2CCE5309A (CollectableItem_t56551780262201A8F7A785F7D20304ECE3A0C390* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// [SerializeField] private new string name = string.Empty;
+		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
+		__this->___name_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___name_4), (void*)L_0);
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
 	}
 }
 #ifdef __clang__
