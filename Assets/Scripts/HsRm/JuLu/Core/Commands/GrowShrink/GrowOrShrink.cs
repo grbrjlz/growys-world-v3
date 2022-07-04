@@ -19,7 +19,7 @@ public class GrowOrShrink : MonoBehaviour {
     private State state = State.ORIGINAL_SIZE;
     private enum Actions { SHRINKING, NORMALIZING, GROWING }
     private Actions action = Actions.NORMALIZING;
-    [SerializeField] GameObject xrRayWidth;
+    
  
     // Use this for initialization
     void Start ()
