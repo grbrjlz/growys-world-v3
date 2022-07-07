@@ -8,6 +8,7 @@ TagManager:
   - grow
   - shrink
   - SF_Door
+  - activateSizing
   layers:
   - Default
   - TransparentFX

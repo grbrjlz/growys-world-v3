@@ -13839,6 +13839,17 @@ struct XRLoaderHelper_tE96E7AE003148D5319D20BAD7E02654367E41DCC  : public XRLoad
 	Dictionary_2_tCDC65F572855EBDD1C12CEE33EBEBE0131F60C9C* ___m_SubsystemInstanceMap_4;
 };
 
+// ActionOnTrigger
+struct ActionOnTrigger_tA802800729C05FBF836F8D8792CBE4A826C68DC9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Collections.Generic.List`1<UnityEngine.GameObject> ActionOnTrigger::growFields
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___growFields_4;
+	// System.Collections.Generic.List`1<UnityEngine.GameObject> ActionOnTrigger::shrinkFields
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___shrinkFields_5;
+	// System.Collections.Generic.List`1<UnityEngine.GameObject> ActionOnTrigger::normalizeFields
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___normalizeFields_6;
+};
+
 // HsRm.JuLu.Core.Commands.BaseCommand
 struct BaseCommand_t4E942BA530B5D42847F9BADA13D71D5A25B5CE81  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -17898,6 +17909,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4238[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4239[1] = 
 {
 	static_cast<int32_t>(offsetof(door_t91F6EB97203C55B634F73FA7DFDF28B27CCB1CA6, ___thedoor_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4240[3] = 
+{
+	static_cast<int32_t>(offsetof(ActionOnTrigger_tA802800729C05FBF836F8D8792CBE4A826C68DC9, ___growFields_4)),static_cast<int32_t>(offsetof(ActionOnTrigger_tA802800729C05FBF836F8D8792CBE4A826C68DC9, ___shrinkFields_5)),static_cast<int32_t>(offsetof(ActionOnTrigger_tA802800729C05FBF836F8D8792CBE4A826C68DC9, ___normalizeFields_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4241[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
