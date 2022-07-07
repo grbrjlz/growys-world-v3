@@ -7,11 +7,18 @@ namespace HsRm.JuLu.Core.Collectables
         [SerializeField] private new string name = string.Empty;
         [SerializeField] private CollectableType type;
 
+
         public CollectableEvent onCollect;
 
         public Collectable(CollectableEvent collectEvent)
         {
             onCollect = collectEvent;
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            Collect();
+            
         }
 
         public void Collect()

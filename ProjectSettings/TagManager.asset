@@ -9,6 +9,9 @@ TagManager:
   - shrink
   - SF_Door
   - activateSizing
+  - key
+  - test
+  - keybridge
   layers:
   - Default
   - TransparentFX

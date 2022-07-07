@@ -8,6 +8,7 @@ namespace HsRm.JuLu.Core.Commands.Inventory
         [SerializeField] private CollectableItem item;
         [SerializeField] private int amount = 1;
 
+
         public override bool IsExecutable
         {
             get => base.IsExecutable && item != null;

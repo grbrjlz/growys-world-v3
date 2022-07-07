@@ -9,12 +9,13 @@ namespace HsRm.JuLu.Core.Utils
     public class Inventory : MonoBehaviour
     {
         [SerializeField] private Dictionary<CollectableItem, int> items = new();
-
         public UnityEvent InventoryUpdated;
         public IEnumerable<KeyValuePair<CollectableItem, int>> Items => items.AsEnumerable();
 
+        
         public void AddItem(CollectableItem item, int amount)
         {
+            
             if (items.ContainsKey(item))
             {
                 items[item] += amount;
@@ -23,8 +24,8 @@ namespace HsRm.JuLu.Core.Utils
             {
                 items.Add(item, amount);
             }
-
             InventoryUpdated?.Invoke();
+            
         }
 
         public void RemoveItem(CollectableItem item, int amount)
@@ -36,6 +37,22 @@ namespace HsRm.JuLu.Core.Utils
             }
         }
 
+        public int GetSize()
+        {
+            return items.Count;
+        }
+
+        //public CollectableItem getItem(CollectableItem item)
+            
+        //{
+        //    CollectableItem x = items[item];
+        //    return x;
+        //}
+
+        //public CollectableItem getKeycard(string bez)
+        //{
+        //    return items[bez];
+        //}
         public bool ContainsItem(CollectableItem item) => items.TryGetValue(item, out var amount) && amount > 0;
         private int GetItemCount(CollectableItem item) => items.TryGetValue(item, out var amount) ? amount : 0;
     }
