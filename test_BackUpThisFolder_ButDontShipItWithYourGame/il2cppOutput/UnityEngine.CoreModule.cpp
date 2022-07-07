@@ -14090,16 +14090,6 @@ IL_0009:
 		return L_1;
 	}
 }
-// System.Boolean UnityEngine.Screen::get_fullScreen()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Screen_get_fullScreen_mE2EA8E280C5420792E6D09CC46D6B3CE023B2A6B (const RuntimeMethod* method) 
-{
-	typedef bool (*Screen_get_fullScreen_mE2EA8E280C5420792E6D09CC46D6B3CE023B2A6B_ftn) ();
-	static Screen_get_fullScreen_mE2EA8E280C5420792E6D09CC46D6B3CE023B2A6B_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Screen_get_fullScreen_mE2EA8E280C5420792E6D09CC46D6B3CE023B2A6B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Screen::get_fullScreen()");
-	bool icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
 // UnityEngine.FullScreenMode UnityEngine.Screen::get_fullScreenMode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_fullScreenMode_m9651FE8CD208A00D617869E4CAB43607AD9FA23D (const RuntimeMethod* method) 
 {
@@ -22803,15 +22793,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_SetCursor_m04453993587B6E24034859
 		Cursor_SetCursor_Injected_m8125D93C00203B82AB835E843DF4CCFE3D1B35DD(L_0, (&___hotspot1), L_1, NULL);
 		return;
 	}
-}
-// System.Void UnityEngine.Cursor::set_visible(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_visible_mC2A804ADF7411AC885923A2E9F3108BCC85C1AE4 (bool ___value0, const RuntimeMethod* method) 
-{
-	typedef void (*Cursor_set_visible_mC2A804ADF7411AC885923A2E9F3108BCC85C1AE4_ftn) (bool);
-	static Cursor_set_visible_mC2A804ADF7411AC885923A2E9F3108BCC85C1AE4_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Cursor_set_visible_mC2A804ADF7411AC885923A2E9F3108BCC85C1AE4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Cursor::set_visible(System.Boolean)");
-	_il2cpp_icall_func(___value0);
 }
 // UnityEngine.CursorLockMode UnityEngine.Cursor::get_lockState()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Cursor_get_lockState_m99E97A23A051AA1167B9C49C3F6E8244E74531AE (const RuntimeMethod* method) 
