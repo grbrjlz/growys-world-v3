@@ -1,8 +1,6 @@
-﻿
-using HsRm.JuLu.Core;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace HsRm.JuLu.Core.Commands
+namespace HsRm.JuLu.Core.Commands.GrowShrink
 {
     public class TagToggleCommand : MonoBehaviour
         

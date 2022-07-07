@@ -7,7 +7,7 @@ namespace HsRm.JuLu.Core.Collectables
         [SerializeField] private new string name = string.Empty;
         [SerializeField] private CollectableType type;
 
-        private readonly CollectableEvent onCollect;
+        public CollectableEvent onCollect;
 
         public Collectable(CollectableEvent collectEvent)
         {

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace HsRm.JuLu.Core.Commands
@@ -6,18 +7,30 @@ namespace HsRm.JuLu.Core.Commands
     {
         [SerializeField] private bool execute = true;
 
-        protected void Execute()
+        public void Execute()
         {
             if (IsExecutable)
             {
                 ExecuteCommand();
             }
         }
-        
-        protected virtual bool IsExecutable
+
+        public virtual bool IsExecutable
         {
             get => execute;
             set => execute = value;
+        }
+        
+        public void ExecuteDelayed(float delay)
+        {
+            StartCoroutine(DelayedExecute(delay));
+        }
+
+
+        private IEnumerator DelayedExecute(float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            Execute();
         }
 
         protected abstract void ExecuteCommand();

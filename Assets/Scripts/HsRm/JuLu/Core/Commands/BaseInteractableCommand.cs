@@ -7,8 +7,8 @@ namespace HsRm.JuLu.Core.Commands
         protected Interactable Interactable { get; set; }
 
         private bool IsInteractable => Interactable != null;
-        
-        protected override bool IsExecutable
+
+        public override bool IsExecutable
         {
             get => base.IsExecutable && IsInteractable && Interactable.IsInteractable;
             set => base.IsExecutable = value;

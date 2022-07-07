@@ -8,12 +8,12 @@ namespace HsRm.JuLu.Core.Commands.Collectables
 
         public bool IsCollectable => Collectable != null;
 
-        protected override bool IsExecutable
+        public override bool IsExecutable
         {
             get => base.IsExecutable && IsCollectable;
             set => base.IsExecutable = value;
         }
-        
+
         protected override void ExecuteCommand()
         {
             Collectable.Collect();
