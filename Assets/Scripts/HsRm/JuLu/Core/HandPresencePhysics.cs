@@ -1,26 +1,29 @@
 using UnityEngine;
 
-public class HandPresencePhysics : MonoBehaviour
+namespace HsRm.JuLu.Core
 {
-    public Transform target;
-    private Rigidbody rb;
-
-    // Start is called before the first frame update
-    void Start()
+    public class HandPresencePhysics : MonoBehaviour
     {
-        rb = GetComponent<Rigidbody>();
-        rb.maxAngularVelocity = 200;
-    }
+        public Transform target;
+        private Rigidbody rb;
 
-    void FixedUpdate()
-    {
-        rb.velocity = (target.position - transform.position) / Time.fixedDeltaTime;
+        // Start is called before the first frame update
+        void Start()
+        {
+            rb = GetComponent<Rigidbody>();
+            rb.maxAngularVelocity = 200;
+        }
 
-        Quaternion rotationDifference = (target.rotation * Quaternion.Inverse(transform.rotation));
-        rotationDifference.ToAngleAxis(out float angleInDegree, out Vector3 rotationAxis);
+        void FixedUpdate()
+        {
+            rb.velocity = (target.position - transform.position) / Time.fixedDeltaTime;
 
-        Vector3 rotationDifferenceInDegree =  angleInDegree * rotationAxis;
+            Quaternion rotationDifference = (target.rotation * Quaternion.Inverse(transform.rotation));
+            rotationDifference.ToAngleAxis(out float angleInDegree, out Vector3 rotationAxis);
 
-        rb.angularVelocity = (rotationDifferenceInDegree  * Mathf.Deg2Rad / Time.fixedDeltaTime);
+            Vector3 rotationDifferenceInDegree =  angleInDegree * rotationAxis;
+
+            rb.angularVelocity = (rotationDifferenceInDegree  * Mathf.Deg2Rad / Time.fixedDeltaTime);
+        }
     }
 }

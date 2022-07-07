@@ -7,7 +7,7 @@ namespace HsRm.JuLu.Core.Commands
         [SerializeField] protected Animator animator;
         [SerializeField] protected string parameter = string.Empty;
 
-        protected override bool IsExecutable
+        public override bool IsExecutable
         {
             get => base.IsExecutable && animator != null;
             set => base.IsExecutable = value;
