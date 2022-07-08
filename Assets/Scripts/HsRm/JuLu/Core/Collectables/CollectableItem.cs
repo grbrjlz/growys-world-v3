@@ -8,10 +8,5 @@ namespace HsRm.JuLu.Core.Collectables
     {
         [SerializeField] private string titel = string.Empty;
         public string Name => titel;
-
-        //public string getName()
-        //{
-        //    return Name;
-        //}
     }
 }
